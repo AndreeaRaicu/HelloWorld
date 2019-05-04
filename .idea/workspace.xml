@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be7f1184-d842-42d9-9d9c-44d65c2e1268" name="Default Changelist" comment="Hello world program">
-      <change afterPath="$PROJECT_DIR$/src/Bubble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bubblesort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CNP.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bubble.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bubblesort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bubblesort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,23 +19,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Bubble.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CNP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+            <state relative-caret-position="272">
+              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
               <folding>
-                <element signature="e#0#1061#0" expanded="true" />
+                <element signature="e#0#844#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Bubblesort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+            <state relative-caret-position="83">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="e#0#1032#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,15 +82,15 @@
         <option value="$PROJECT_DIR$/src/Ex16.java" />
         <option value="$PROJECT_DIR$/src/Ex17.java" />
         <option value="$PROJECT_DIR$/src/Ex18.java" />
-        <option value="$PROJECT_DIR$/src/Bubble.java" />
         <option value="$PROJECT_DIR$/src/Bubblesort.java" />
+        <option value="$PROJECT_DIR$/src/Bubble.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-2" />
+    <option name="x" value="611" />
     <option name="y" value="15" />
-    <option name="width" value="1346" />
+    <option name="width" value="733" />
     <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -143,15 +147,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DebugAcademie" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DebugAcademie" />
+    <configuration name="CNP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CNP" />
       <module name="HelloWorld" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ex15" />
+    <configuration name="DebugAcademie" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DebugAcademie" />
       <module name="HelloWorld" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -191,10 +195,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Bubblesort" />
+        <item itemvalue="Application.CNP" />
         <item itemvalue="Application.Ex18" />
         <item itemvalue="Application.Ex17" />
         <item itemvalue="Application.Ex16" />
-        <item itemvalue="Application.Ex15" />
       </list>
     </recent_temporary>
   </component>
@@ -232,12 +236,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20737328" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20737328" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39938557" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.10291859" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.22427036" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32872504" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.16282642" />
@@ -447,20 +451,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bubble.java">
+    <entry file="file://$PROJECT_DIR$/src/Bubblesort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+        <state relative-caret-position="83">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
-            <element signature="e#0#1061#0" expanded="true" />
+            <element signature="e#0#1032#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bubblesort.java">
+    <entry file="file://$PROJECT_DIR$/src/CNP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        <state relative-caret-position="272">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#844#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
