@@ -1,35 +1,25 @@
-1.
+2.
 
-public class Main {
+public class Main{
+    public static void main(String[] args){
 
+        int n = 6;
+        int counter=1;
+        System.out.println("N=" +n);
+        do {
+            if (n % 2 == 0) {
+                n = n / 2;
+            } else {
+                n = 3 * n + 1;
+            }
+            System.out.println("N=" +n);
+            counter++;
 
-    public static void main(String[] args) {
+        } while (n!=1);
 
+        System.out.println(counter);
 
-        // 1. sa se scrie un program folosind o structura repetitiva, care sa afiseze urmatorul rezultat
-//# ##  ###   ####   ###  ##  #
-
-
-        int n = 4;
-        int k = 1;
-        boolean crestere = true;
-
-        while (k > 0) {
-            for (int i = 0; i < k; i++)
-                System.out.print("#");
-
-            System.out.print(" ");
-            if (crestere == true) {
-                if (k < n) {
-                    k++;
-                } else {
-                    k--;
-                    crestere = false;
-                }
-            } else
-                k--;
-        }
     }
-}
 
+}
 
