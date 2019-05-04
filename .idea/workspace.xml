@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be7f1184-d842-42d9-9d9c-44d65c2e1268" name="Default Changelist" comment="Hello world program">
-      <change afterPath="$PROJECT_DIR$/src/Ex9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,7 +17,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Ex1.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
@@ -73,7 +74,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Ex7.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
+            <state relative-caret-position="340">
               <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
             </state>
           </provider>
@@ -90,7 +91,20 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Ex9.java">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Ex10.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -121,6 +135,7 @@
         <option value="$PROJECT_DIR$/src/Ex7.java" />
         <option value="$PROJECT_DIR$/src/Ex8.java" />
         <option value="$PROJECT_DIR$/src/Ex9.java" />
+        <option value="$PROJECT_DIR$/src/Ex10.java" />
       </list>
     </option>
   </component>
@@ -176,7 +191,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Ex10">
+  <component name="RunManager" selected="Application.Ex11">
     <configuration name="DebugAcademie" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DebugAcademie" />
       <module name="HelloWorld" />
@@ -191,8 +206,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ex6" />
+    <configuration name="Ex11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ex11" />
       <module name="HelloWorld" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -231,11 +246,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex11" />
         <item itemvalue="Application.Ex10" />
         <item itemvalue="Application.Ex9" />
         <item itemvalue="Application.Ex8" />
         <item itemvalue="Application.Ex7" />
-        <item itemvalue="Application.Ex6" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +277,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2685325" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -331,6 +345,11 @@
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Ex8.java</url>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -349,6 +368,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ex1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Ex2.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -387,7 +413,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Ex7.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
+        <state relative-caret-position="340">
           <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
         </state>
       </provider>
@@ -400,12 +426,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Ex9.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ex1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="88">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ex10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
