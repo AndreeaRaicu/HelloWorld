@@ -176,7 +176,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Ex9">
+  <component name="RunManager" selected="Application.Ex10">
     <configuration name="DebugAcademie" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DebugAcademie" />
       <module name="HelloWorld" />
@@ -184,8 +184,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ex5" />
+    <configuration name="Ex10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ex10" />
       <module name="HelloWorld" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -231,11 +231,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex10" />
         <item itemvalue="Application.Ex9" />
         <item itemvalue="Application.Ex8" />
         <item itemvalue="Application.Ex7" />
         <item itemvalue="Application.Ex6" />
-        <item itemvalue="Application.Ex5" />
       </list>
     </recent_temporary>
   </component>
