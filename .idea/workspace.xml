@@ -192,16 +192,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Ex14">
+  <component name="RunManager" selected="Application.Ex15">
     <configuration name="DebugAcademie" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DebugAcademie" />
-      <module name="HelloWorld" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ex11" />
       <module name="HelloWorld" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -235,6 +228,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ex15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ex15" />
+      <module name="HelloWorld" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="HelloWorld" />
@@ -247,11 +247,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex15" />
         <item itemvalue="Application.Ex14" />
         <item itemvalue="Application.Ex13" />
         <item itemvalue="Application.Ex12VariantaSwitch" />
         <item itemvalue="Application.Ex12VariantaCuIf" />
-        <item itemvalue="Application.Ex11" />
       </list>
     </recent_temporary>
   </component>
