@@ -13,35 +13,76 @@
 //        cnp = 2890205...... se va afisa mesajul "fata nascuta pe 5 februarie 1989"
 
 
-// pana in punctul asta am lucrat la ea
+
 
 public class CNP{
-    //String cnpString='SAALLZZJJNNNC';
+
     public static void main(String args[] ) {
-        int s = 50;
-        switch (s) {
+       String CNP="1900510";
+       String[] myString=CNP.split("");
 
-            case 1:
-            case 2:
-                System.out.println("   nascuti intre 1 ianuarie 1900 si 31 decembrie 1999");
-                break;
-            case 3:
-            case 4:
-                System.out.println("nascuti intre 1 ianuarie 1800 si 31 decembrie 1899");
-                break;
-            case 5:
-            case 6:
-                System.out.println(" nascuti intre 1 ianuarie 2000 si 31 decembrie 2099 ");
-                break;
-            case 7:
-            case 8:
-                System.out.println("  pentru persoanele straine rezidente in Romania");
-                break;
-                default:
-                System.out.println("  S-a introdus o cifra eronata");
+       if (myString[0]=="1")
+           System.out.print("baiat nascut pe ");
+       else
+           System.out.print("fata nascuta pe ");
+
+     if(myString[5]=="0")
+           System.out.print(myString[6]);
+       else
+           System.out.print(myString[5] + myString[6]);
 
 
-
+       if(myString[3]=="0" && myString[4]=="1") {
+           System.out.print(" ianuarie ");
+       }
+     else    if
+            (myString[3] == "0" && myString[4] == "2") {
+            System.out.print(" februarie ");
         }
+     else   if
+            (myString[3] == "0" && myString[4] == "3") {
+            System.out.print(" martie ");
+        }
+       else if
+            (myString[3] == "0" && myString[4] == "4") {
+            System.out.print(" aprilie ");
+        }
+       else  if
+            ( myString[3].equals("0") && myString[4].equals("5")) {
+            System.out.print("mai ");
+        }
+       else if
+            (myString[3] == "0" && myString[4] == "6") {
+            System.out.print(" iunie ");
+        }
+       else  if
+            (myString[3] == "0" && myString[4] == "7") {
+            System.out.print(" iulie ");
+        }
+       else  if (myString[3] == "0" && myString[4] == "8") {
+            System.out.print(" august ");
+        }
+       else   if
+            (myString[3] == "0" && myString[4] == "9") {
+            System.out.print(" septembrie");
+        }
+       else   if
+            (myString[3] == "1" && myString[4] == "0") {
+            System.out.print(" octombrie ");
+        }
+       else   if
+            (myString[3] == "1" && myString[4] == "1") {
+            System.out.print(" noiembrie ");
+        }
+       else   if
+            (myString[3] == "1" && myString[4] == "2") {
+            System.out.print("decembrie ");
+        }
+
+
+          // -----------------------------
+
+
+     System.out.print(  "19" + myString[1] +myString[2]);
     }
     }

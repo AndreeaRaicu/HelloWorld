@@ -9,7 +9,7 @@
 
 
 
-public class BubbleSortAndBinarySearch {
+public class BubbleSort{
     public static void main(String args[] ) {
 
         int[] myArray=new int [] {100,4,8,1,2,222};
@@ -32,28 +32,6 @@ public class BubbleSortAndBinarySearch {
 
 
 
-
-        // binary search m-am insipirat de pe net si am facut ceva dar nu e corect
-        int r=5;
-        int x=10;
-       int mijloc=5;
-        if(r>=1){
-            int mijloc= 1 + (r-1)/2; // daca elementul este chiar mijlocul
-            if (myArray[mijloc]==x)
-                return mijloc;
-            //daca elementul este mai mic decat mijlocul,poate fi prezent doar in subarray
-        }
-        if (myArray[mijloc]>x)
-            return mijloc - 1;
-        else
-            return mijloc + 1;
-
-
-        int result=3;
-                if (result == -1)
-                    System.out.println("Elementul nu este present");
-                else
-                    System.out.println("Element se afla la indexul " + result);
 
 
     }
